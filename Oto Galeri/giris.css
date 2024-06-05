@@ -1,0 +1,42 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;  /* Yatay ortalama */
+    align-items: center;      /* Dikey ortalama */
+    background-color: rgb(175, 174, 174);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    padding: 20px;
+    border: 3px solid gray;
+    box-shadow: 3px 5px 5px gray;
+    border-radius: 7px;
+    width: 350px;
+    background-color: rgb(221, 221, 221);
+}
+
+.element {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.input {
+    border-radius: 7px;
+    border: 1px solid gray; 
+    padding: 8px;
+}
+
+.form-label{
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}

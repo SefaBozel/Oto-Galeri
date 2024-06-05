@@ -1,0 +1,46 @@
+html, body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(96, 96, 120);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.hizliErisim{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid darkgray;
+    border-radius: 7px;
+    box-shadow: 3px 5px 5px #D1D2D4;
+    width: 450px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #D1D2D4;
+    color: rgb(96, 96, 120);
+}
+
+.table{
+    border: 3px solid darkgray;
+    border-radius: 7px;
+    box-shadow: 3px 5px 5px #D1D2D4;
+}
+
+.element{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.btn{
+    width: 200px;
+}
+
+.form-control{
+    width: 250px;
+}

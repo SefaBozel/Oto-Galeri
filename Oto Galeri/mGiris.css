@@ -1,0 +1,33 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(96, 96, 120);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid gray;
+    width: 400px;
+    padding: 20px;
+    background-color: #D1D2D4;
+    color: rgb(96, 96, 120);
+    border-radius: 7px;
+}
+
+.element{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    width: 200px;
+}

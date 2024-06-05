@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="anaSayfa.css">
+    <title>Ana Sayfa</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="hizliErisim">
+            <div class="element">
+                <label for="text" style="margin-left: 90px;">Ürün ID:</label>
+                <input class="form-control form-control" id="ID" type="text" placeholder="Aracın ID'sini giriniz.">
+            </div>
+            <div class="element">
+                <label for="text" style="margin-left: 90px;">Markası:</label>
+                <input class="form-control form-control" id="urunAdi" type="text" placeholder="Aracın markasını giriniz.">
+            </div>
+            <div class="element">
+                <label for="text" style="margin-left: 96px;">Modeli:</label>
+                <input class="form-control form-control" id="urunKategori" type="text" placeholder="Aracın modelini giriniz.">
+            </div>
+            <div class="element">
+                <label for="text" style="margin-left: 66px;">Araç Sahibi:</label>
+                <input class="form-control form-control" id="stokBilgi" type="text" placeholder="Aracın sahibini giriniz.">
+            </div>
+            <div class="element">
+                <label for="text" style="margin-left: 72px;">Araç Fiyatı:</label>
+                <input class="form-control form-control" id="urunEkleyen" type="text" placeholder="Aracın fiyatını giriniz.">
+            </div>
+            <div class="element">
+                <label for="resimURL" style="margin-left: 22px;">Ürün Resmi (URL):</label>
+                <input class="form-control form-control" id="resimURL" type="url" placeholder="Aracın fotoğrafını giriniz.">
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto">
+                <button id="btnEkle" class="btn btn-success btn-lg" type="button">Ekle</button>
+                <button id="btnSil" class="btn btn-danger btn-lg" type="button">Sil</button>
+                <button id="btnSiparis" class="btn btn-primary btn-lg"><a href="verilenSiparis.html" style="color: white; text-decoration: none;">Verilen Siparişler</a></button>
+            </div>
+        </div>
+        <div class="urunListesi">
+            <table class="table table-striped table-hover table-secondary table-bordered">
+                <thead>
+                    <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Markası</th>
+                        <th scope="col">Modeli</th>
+                        <th scope="col">Araç Sahibi</th>
+                        <th scope="col">Araç Fiyatı</th>
+                        <th scope="col">Araç Fotoğrafı</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="anaSayfa.js"></script>
+</body>
+
+</html>

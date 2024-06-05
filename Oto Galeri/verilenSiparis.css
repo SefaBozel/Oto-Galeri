@@ -1,0 +1,43 @@
+html, body {
+    margin: 0;
+    display: flex;
+    justify-content: center;  /* Yatay ortalama */
+    align-items: center;
+    background-color: rgb(96, 96, 120);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hizliErisim{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border: 3px solid darkgray;
+    color: rgb(96, 96, 120);
+    border-radius: 7px;
+    box-shadow: 3px 5px 5px #D1D2D4;
+    width: 450px;
+    background-color: #D1D2D4;
+}
+
+.form-floating{
+    margin: auto;
+}
+
+.btn{
+    margin-bottom: 20px;
+}
+
+.table{
+    border: 3px solid darkgray;
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px #D1D2D4;
+}
+
+.form-control{
+    width: 250px;
+}
